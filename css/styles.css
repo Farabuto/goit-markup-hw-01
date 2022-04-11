@@ -1,0 +1,137 @@
+body{
+    font-family: Roboto,sans-serif; 
+}
+
+:root{
+    --accent-color:#2196F3;
+}
+/* .remove-dots{list-style:none;} видалити крапки */
+.remove-dots {
+    list-style: none;
+}
+/* .remove-underscores{text-decoration:none;} видалити підкреслення */
+.remove-underscores {
+    text-decoration: none;
+}
+* {
+    color: #212121;
+}
+.site-nav{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+.site-nav:focus,
+.site-nav:hover,
+.site-nav:active {
+    color:var(--accent-color);
+}
+
+.contact {
+    color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.contact:focus,
+.contact:hover,
+.contact:active {
+    color:var(--accent-color);
+}
+
+.logo {
+    color: #212121;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+
+.logo-footer {
+    color: #ffffff;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+
+.logo-blu {
+    color: #2196F3;
+}
+
+.list{
+    background-color:#2F303A ;
+}
+.title{
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+}
+.button{
+    background-color:var(--accent-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+}
+.button:focus
+.button:hover
+.button:active{
+    background-color: rgba(33, 150, 243, 0.15);
+    box-shadow: 0px 4px 4px;
+    border-radius: 4px;
+}
+.order{
+    color: #ffffff;
+}
+
+.text{
+    color: #757575;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.subject{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.heading{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.headline{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+.items{
+    background-color: #F5F4FA;
+}
+
+.footer {
+    background-color: #2F303A;
+}
+.footer-map {
+    color: #ffffff;
+}
+.footer-contact {
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-contact:focus,
+.footer-contact:hover,
+.footer-contact:active {
+    color: #ffffff;
+}
